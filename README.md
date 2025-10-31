@@ -91,8 +91,8 @@ Comprehensive Grand Exchange flipping tracker with profit margins, tax calculati
 
 Simply click these links to automatically install in Alt1:
 
-- **Elder Tree Timer**: [alt1://addapp/https://6ing.github.io/alt1plugins/plugins/elder-timer/appconfig.json](alt1://addapp/https://6ing.github.io/alt1plugins/plugins/elder-timer/appconfig.json)
-- **Flippr**: [alt1://addapp/https://6ing.github.io/alt1plugins/plugins/ge-flipper/appconfig.json](alt1://addapp/https://6ing.github.io/alt1plugins/plugins/ge-flipper/appconfig.json)
+- **Elder Tree Timer**: [alt1://addapp/https://6inq.github.io/alt1plugins/plugins/elder-timer/appconfig.json](alt1://addapp/https://6inq.github.io/alt1plugins/plugins/elder-timer/appconfig.json)
+- **Flippr**: [alt1://addapp/https://6inq.github.io/alt1plugins/plugins/ge-flipper/appconfig.json](alt1://addapp/https://6inq.github.io/alt1plugins/plugins/ge-flipper/appconfig.json)
 
 *Note: Make sure Alt1 Toolkit is installed and running. If clicking the links doesn't work, try the methods below.*
 
@@ -102,8 +102,8 @@ Simply click these links to automatically install in Alt1:
 2. Click the **Apps** button in the toolbar
 3. Click **"Open App Browser"**
 4. Copy and paste the **appconfig.json** URL into the address bar:
-   - **Elder Tree Timer**: `https://6ing.github.io/alt1plugins/plugins/elder-timer/appconfig.json`
-   - **Flippr**: `https://6ing.github.io/alt1plugins/plugins/ge-flipper/appconfig.json`
+   - **Elder Tree Timer**: `https://6inq.github.io/alt1plugins/plugins/elder-timer/appconfig.json`
+   - **Flippr**: `https://6inq.github.io/alt1plugins/plugins/ge-flipper/appconfig.json`
 5. Press Enter and Alt1 should automatically detect the plugin configuration
 6. Click **"Add App"** when prompted
 7. Grant necessary permissions (capture, OCR, overlay, chatbox) when prompted
@@ -115,8 +115,8 @@ Simply click these links to automatically install in Alt1:
 3. Go to the **"Apps"** or **"Plugins"** tab
 4. Click **"Add App"** or **"Add Plugin"**
 5. Paste one of the appconfig.json URLs:
-   - **Elder Tree Timer**: `https://6ing.github.io/alt1plugins/plugins/elder-timer/appconfig.json`
-   - **Flippr**: `https://6ing.github.io/alt1plugins/plugins/ge-flipper/appconfig.json`
+   - **Elder Tree Timer**: `https://6inq.github.io/alt1plugins/plugins/elder-timer/appconfig.json`
+   - **Flippr**: `https://6inq.github.io/alt1plugins/plugins/ge-flipper/appconfig.json`
 6. Follow the on-screen instructions
 
 **Method 4: Download and Install Locally** (If online methods don't work)
