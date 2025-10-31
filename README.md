@@ -21,7 +21,7 @@ Tracks Elder Tree chop timers (5 minutes) and cooldowns (10 minutes) across all 
 - 📈 **Session Tracking**: Runtime and cumulative statistics
 
 #### Usage:
-1. **Install**: Open Alt1 → Apps → Open App Browser → Navigate to `https://6ing.github.io/alt1plugins/plugins/elder-timer/index.html` → Click "Add App"
+1. **Install**: See [Installation](#-installation) section below for detailed installation instructions
 2. Open the plugin in Alt1
 3. Select your current location or let auto-detection handle it
 4. The plugin will automatically detect when you start chopping via chat messages
@@ -56,7 +56,7 @@ Comprehensive Grand Exchange flipping tracker with profit margins, tax calculati
 - ⚡ **Runelite-Style**: Similar functionality to OSRS Runelite Flipping plugin
 
 #### Usage:
-1. **Install**: Open Alt1 → Apps → Open App Browser → Navigate to `https://6ing.github.io/alt1plugins/plugins/ge-flipper/index.html` → Click "Add App"
+1. **Install**: See [Installation](#-installation) section below for detailed installation instructions
 2. Open Flippr in Alt1 and grant all permissions (capture, OCR, overlay, chatbox)
 3. **Auto-detection**: Simply price check items in GE - they'll be automatically tracked with profit per item shown
 4. View tracked items in the "Item Tracking" tab to see profit margins and total profit at GE limit
@@ -87,23 +87,56 @@ Comprehensive Grand Exchange flipping tracker with profit margins, tax calculati
 
 #### Quick Install (Recommended)
 
-**Option 1: Copy and paste into Alt1**
+**Method 1: One-Click Install (Easiest)**
+
+Simply click these links to automatically install in Alt1:
+
+- **Elder Tree Timer**: [alt1://addapp/https://6ing.github.io/alt1plugins/plugins/elder-timer/appconfig.json](alt1://addapp/https://6ing.github.io/alt1plugins/plugins/elder-timer/appconfig.json)
+- **Flippr**: [alt1://addapp/https://6ing.github.io/alt1plugins/plugins/ge-flipper/appconfig.json](alt1://addapp/https://6ing.github.io/alt1plugins/plugins/ge-flipper/appconfig.json)
+
+*Note: Make sure Alt1 Toolkit is installed and running. If clicking the links doesn't work, try the methods below.*
+
+**Method 2: Manual Installation via App Browser**
+
 1. Open Alt1 Toolkit
-2. Click the Apps button
-3. Click "Open App Browser"
-4. Copy and paste one of these URLs into the address bar:
-   - Elder Tree Timer: `https://6ing.github.io/alt1plugins/plugins/elder-timer/index.html`
-   - Flippr: `https://6ing.github.io/alt1plugins/plugins/ge-flipper/index.html`
-5. Click "Add App" when prompted
+2. Click the **Apps** button in the toolbar
+3. Click **"Open App Browser"**
+4. Copy and paste the **appconfig.json** URL into the address bar:
+   - **Elder Tree Timer**: `https://6ing.github.io/alt1plugins/plugins/elder-timer/appconfig.json`
+   - **Flippr**: `https://6ing.github.io/alt1plugins/plugins/ge-flipper/appconfig.json`
+5. Press Enter and Alt1 should automatically detect the plugin configuration
+6. Click **"Add App"** when prompted
+7. Grant necessary permissions (capture, OCR, overlay, chatbox) when prompted
 
-**Option 2: Manual installation**
-1. Install [Alt1 Toolkit](https://runeapps.org/alt1) if you haven't already
-2. Open Alt1 → Apps → Open App Browser
-3. Navigate to the plugin URL (see links above)
-4. Click "Add App" to install
-5. Grant necessary permissions (capture, OCR, overlay, chatbox) when prompted
+**Method 3: Installation via Settings**
 
-*Note: Custom protocol links (alt1://) may not work reliably in all browsers. The manual method above is more reliable.*
+1. Open Alt1 Toolkit
+2. Click the **Settings** icon (cogwheel) in the Alt1 toolbar
+3. Go to the **"Apps"** or **"Plugins"** tab
+4. Click **"Add App"** or **"Add Plugin"**
+5. Paste one of the appconfig.json URLs:
+   - **Elder Tree Timer**: `https://6ing.github.io/alt1plugins/plugins/elder-timer/appconfig.json`
+   - **Flippr**: `https://6ing.github.io/alt1plugins/plugins/ge-flipper/appconfig.json`
+6. Follow the on-screen instructions
+
+**Method 4: Download and Install Locally** (If online methods don't work)
+
+1. Download the plugin files from GitHub:
+   - Navigate to the plugin folder (e.g., `plugins/ge-flipper/` or `plugins/elder-timer/`)
+   - Download all files: `index.html`, `main.js`, `style.css`, `appconfig.json`
+2. Locate your Alt1 installation directory:
+   - Usually at: `C:\Users\[YourUsername]\AppData\Local\Alt1Toolkit\appdata\plugins\`
+3. Create a new folder for the plugin (e.g., `ge-flipper` or `elder-timer`)
+4. Place all downloaded files in that folder
+5. Restart Alt1 Toolkit
+6. The plugin should now appear in your Apps list
+
+**Troubleshooting:**
+- If the `alt1://addapp/` links don't work, use Method 2 (manual installation via App Browser)
+- Make sure you're using the latest version of Alt1 Toolkit
+- Ensure Alt1 has internet access (for online plugins)
+- Check that the GitHub Pages site is accessible (try opening the URLs in a regular browser first)
+- If browser doesn't recognize `alt1://` protocol, install Alt1 Toolkit and ensure it's registered as the default handler
 
 ### For Developers:
 ```bash
