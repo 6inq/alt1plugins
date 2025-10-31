@@ -1,178 +1,42 @@
-# Alt1 Plugins Collection
+# Alt1 Plugins Directory
 
-A collection of helpful Alt1 plugins for RuneScape 3, designed to enhance gameplay with automation, tracking, and quality-of-life improvements.
+This directory lists my Alt1 plugins for RuneScape 3. Each plugin is maintained in its own repository.
 
 ## 📦 Available Plugins
 
 ### 🪓 Elder Tree Timer
-**Version:** 0.5.0  
-**Status:** ✅ Active
 
 Tracks Elder Tree chop timers (5 minutes) and cooldowns (10 minutes) across all three locations (Edgeville, Varrock, Yanille). Features automatic detection via OCR, per-location tracking, overlay HUD, sound alerts, and comprehensive statistics.
 
-#### Features:
-- 🎯 **Automatic Detection**: Uses chat OCR and screen popup detection to automatically start timers
-- 📍 **Location Detection**: Auto-detects your current location via banner and minimap OCR
-- ⏱️ **Per-Location Tracking**: Tracks timers, logs, and XP separately for each Elder Tree location
-- 📊 **Statistics**: Tracks total logs, XP, and chop count across all sessions
-- 🔊 **Sound Alerts**: Customizable pre-alert sound before timer completion
-- 🖥️ **Overlay HUD**: Optional in-game overlay showing current location timers
-- 💾 **Data Export/Import**: Backup and restore your progress
-- 📈 **Session Tracking**: Runtime and cumulative statistics
+**Installation:**
+```
+alt1://addapp/https://raw.githubusercontent.com/6inq/elder-timer/main/appconfig.json
+```
 
-#### Usage:
-1. **Install**: See [Installation](#-installation) section below for detailed installation instructions
-2. Open the plugin in Alt1
-3. Select your current location or let auto-detection handle it
-4. The plugin will automatically detect when you start chopping via chat messages
-5. Use the overlay HUD toggle for in-game timer display
-6. Configure pre-alert timing for notifications before timer completion
-
-#### Detection Methods:
-- Chat message detection: "you begin to swipe at the tree"
-- Center popup OCR: Detects "no branches... regrow shortly" message
-- Banner OCR: Detects location name from area banner
-- Minimap OCR: Fallback location detection from minimap
+**Repository:** [https://github.com/6inq/elder-timer](https://github.com/6inq/elder-timer)
 
 ---
 
 ### 💰 Flippr
-**Version:** 1.1.0  
-**Status:** ✅ Active
 
 Comprehensive Grand Exchange flipping tracker with profit margins, tax calculations, historical data, and detailed statistics. Automatically detects GE price checks and tracks items with profit calculations - similar to Runelite's Flipping plugin for OSRS.
 
-#### Features:
-- 🎯 **Auto-Detection**: Automatically detects GE price checks and tracks items with profit calculations
-- 📊 **Order Tracking**: Track buy and sell orders separately with full details
-- 🔗 **Order Linking**: Link buy orders to sell orders for automatic profit calculation
-- 💵 **Profit Calculation**: Automatic profit/loss calculation with 1% GE tax included (per item and total)
-- 📈 **Real-time Statistics**: Running totals for profit, ROI, success rate, and more
-- 📜 **Historical Data**: Complete history of all completed flips with dates and details
-- 📋 **Item Tracking**: Per-item profit tracking with price history and check counts
-- 📋 **Watchlist**: Track items you're monitoring for potential flips
-- 💾 **Export/Import**: Backup and restore all your flipping data
-- 🎯 **Key Metrics**: Total profit, average profit per flip, best flip, ROI percentage, success rate
-- ⚡ **Runelite-Style**: Similar functionality to OSRS Runelite Flipping plugin
+**Installation:**
+```
+alt1://addapp/https://raw.githubusercontent.com/6inq/flippr/main/appconfig.json
+```
 
-#### Usage:
-1. **Install**: See [Installation](#-installation) section below for detailed installation instructions
-2. Open Flippr in Alt1 and grant all permissions (capture, OCR, overlay, chatbox)
-3. **Auto-detection**: Simply price check items in GE - they'll be automatically tracked with profit per item shown
-4. View tracked items in the "Item Tracking" tab to see profit margins and total profit at GE limit
-5. Add buy orders when you place offers in GE (or use "Create Order" from tracked items)
-6. Add sell orders when you list items for sale
-7. Link buy and sell orders together (select both, click "Link Buy → Sell")
-8. **Automatic Updates**: The plugin watches chatbox and automatically updates orders when they complete or partially complete
-9. When linked orders both complete, profit is automatically calculated and added to history
-10. View your completed flips in the "Completed" tab
-11. Check "Statistics" tab for comprehensive performance metrics
-12. Export your data regularly to backup your trading history
-
-#### Statistics Tracked:
-- **Total Profit**: Cumulative profit/loss from all completed flips
-- **Total Flips**: Number of completed flip transactions
-- **Active Orders**: Current number of pending buy/sell orders
-- **Total Invested**: Total amount spent on buy orders
-- **Avg Profit/Flip**: Average profit per completed flip
-- **Success Rate**: Percentage of profitable flips
-- **Best Flip**: Highest profit from a single flip
-- **ROI %**: Return on investment percentage
+**Repository:** [https://github.com/6inq/flippr](https://github.com/6inq/flippr)
 
 ---
 
-## 🛠️ Installation
+## 🛠️ How to Install
 
-### For Users:
+1. Click on one of the installation links above
+2. Alt1 Toolkit should automatically open and prompt you to install the plugin
+3. If clicking doesn't work, copy the `alt1://addapp/...` link and paste it into your browser's address bar
 
-#### Quick Install (Recommended)
-
-**Method 1: One-Click Install (Easiest)**
-
-Simply click these links to automatically install in Alt1:
-
-- **Elder Tree Timer**: [alt1://addapp/https://6inq.github.io/alt1plugins/plugins/elder-timer/appconfig.json](alt1://addapp/https://6inq.github.io/alt1plugins/plugins/elder-timer/appconfig.json)
-- **Flippr**: [alt1://addapp/https://6inq.github.io/alt1plugins/plugins/ge-flipper/appconfig.json](alt1://addapp/https://6inq.github.io/alt1plugins/plugins/ge-flipper/appconfig.json)
-
-*Note: Make sure Alt1 Toolkit is installed and running. If clicking the links doesn't work, try the methods below.*
-
-**Method 2: Manual Installation via App Browser**
-
-1. Open Alt1 Toolkit
-2. Click the **Apps** button in the toolbar
-3. Click **"Open App Browser"**
-4. Copy and paste the **appconfig.json** URL into the address bar:
-   - **Elder Tree Timer**: `https://6inq.github.io/alt1plugins/plugins/elder-timer/appconfig.json`
-   - **Flippr**: `https://6inq.github.io/alt1plugins/plugins/ge-flipper/appconfig.json`
-5. Press Enter and Alt1 should automatically detect the plugin configuration
-6. Click **"Add App"** when prompted
-7. Grant necessary permissions (capture, OCR, overlay, chatbox) when prompted
-
-**Method 3: Installation via Settings**
-
-1. Open Alt1 Toolkit
-2. Click the **Settings** icon (cogwheel) in the Alt1 toolbar
-3. Go to the **"Apps"** or **"Plugins"** tab
-4. Click **"Add App"** or **"Add Plugin"**
-5. Paste one of the appconfig.json URLs:
-   - **Elder Tree Timer**: `https://6inq.github.io/alt1plugins/plugins/elder-timer/appconfig.json`
-   - **Flippr**: `https://6inq.github.io/alt1plugins/plugins/ge-flipper/appconfig.json`
-6. Follow the on-screen instructions
-
-**Method 4: Download and Install Locally** (If online methods don't work)
-
-1. Download the plugin files from GitHub:
-   - Navigate to the plugin folder (e.g., `plugins/ge-flipper/` or `plugins/elder-timer/`)
-   - Download all files: `index.html`, `main.js`, `style.css`, `appconfig.json`
-2. Locate your Alt1 installation directory:
-   - Usually at: `C:\Users\[YourUsername]\AppData\Local\Alt1Toolkit\appdata\plugins\`
-3. Create a new folder for the plugin (e.g., `ge-flipper` or `elder-timer`)
-4. Place all downloaded files in that folder
-5. Restart Alt1 Toolkit
-6. The plugin should now appear in your Apps list
-
-**Troubleshooting:**
-- If the `alt1://addapp/` links don't work, use Method 2 (manual installation via App Browser)
-- Make sure you're using the latest version of Alt1 Toolkit
-- Ensure Alt1 has internet access (for online plugins)
-- Check that the GitHub Pages site is accessible (try opening the URLs in a regular browser first)
-- If browser doesn't recognize `alt1://` protocol, install Alt1 Toolkit and ensure it's registered as the default handler
-
-### For Developers:
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/alt1plugins.git
-cd alt1plugins
-
-# Plugins are standalone HTML/CSS/JS files
-# Edit files directly or serve locally for testing
-```
-
----
-
-## 📝 Plugin Structure
-
-Each plugin follows this structure:
-```
-plugins/
-  └── plugin-name/
-      ├── index.html          # Main HTML interface
-      ├── main.js            # Plugin logic
-      ├── style.css          # Styling
-      ├── appconfig.json     # Alt1 app configuration
-      └── icon.png           # Plugin icon (optional)
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these guidelines:
-
-1. **New Plugins**: Create a new folder in `plugins/` following the structure above
-2. **Updates**: Update version numbers and document changes in the plugin's section
-3. **Code Style**: Follow existing code patterns and Alt1 best practices
-4. **Testing**: Test thoroughly before submitting changes
+**Note:** Make sure you have [Alt1 Toolkit](https://runeapps.org/alt1) installed and running.
 
 ---
 
@@ -182,37 +46,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Credits
-
 **Author:** Gingie  
 **Alt1 Toolkit:** [RuneApps](https://runeapps.org/)
-
----
-
-## 📞 Support
-
-For issues, suggestions, or questions:
-- Open an issue on GitHub
-- Contact via Alt1 app or Discord
-
----
-
-## 🔄 Changelog
-
-### Elder Tree Timer
-- **v0.5.0** - Added statistics tracking, export/import functionality, improved completion alerts
-- **v0.4.0** - Per-location live panels, overlay HUD, banner + minimap OCR, audio pre-alert
-
-### Flippr
-- **v1.1.0** - Added auto-detection of GE price checks, per-item profit tracking with price history, Runelite-style features
-- **v1.0.0** - Initial release with comprehensive profit tracking, margins, taxes, historical data, and statistics
-
----
-
-## 💡 Tips
-
-- **Elder Tree Timer**: Enable overlay HUD for hands-free timer monitoring while playing
-- **Flippr**: Enable auto-detection to automatically track items when you price check them in GE. The plugin will show profit per item, margin, and track price history. Link buy and sell orders immediately when both are placed to track complete transactions. Export your data regularly to maintain a backup of your trading history.
-- Keep plugins updated for the latest features and bug fixes
-- Export your data regularly to prevent data loss
-- Use sound alerts to avoid missing timer completions when multitasking
